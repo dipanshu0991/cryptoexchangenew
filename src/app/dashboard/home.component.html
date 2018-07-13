@@ -1,0 +1,311 @@
+<section class="dashboard">
+        <div class="container-fluid">
+                    <!--right sidebar-->
+                    <div class="col-md-12 col-sm-12 chart">
+                          <!--order form start-->
+                          <div class="row">
+                          <div class="col-md-4">
+                                <!--Order form start-->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" href="#collapseTwo">
+                                              Order Form
+                                            </a>
+                                       </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse show">
+                                        <div class="panel-body">
+                                            <!--buttons-->
+                                            <ul class="nav nav-tabs buysell">
+                                                <li class="active"><a class="show active" data-toggle="tab" href="#buy">Limit</a></li>
+                                                <li><a data-toggle="tab" href="#sell">Market</a></li>
+                                                <li><a data-toggle="tab" href="#stop">Stop Limit</a></li>
+                                            </ul>
+                                            <!--buttons respective tabs-->
+                                            <div class="tab-content">
+                                                <!--buy tab content-->
+                                                <div id="buy" class="tab-pane fade in active show">
+                                                    <div class="row">
+                                                        <div class="col-md-6 buycol">
+  
+                                                            <h3>Buy</h3>
+  
+                                                            <div class="but txt">
+                                                                <p class="buytxt">Buy KEY</p>
+                                                                <p class="bitwallet"><img src="assets/wallet.png">-USDT</p>
+                                                            </div>
+                                                            <div class="sum">
+                                                                <app-calc></app-calc>
+                                                            </div>
+  
+                                                        </div>
+                                                        <div class="col-md-6 sellcol">
+  
+                                                            <h3>Sell</h3>
+                                                            <div class="but txt">
+                                                                <p class="buytxt">Buy KEY</p>
+                                                                <p class="bitwallet"><img src="assets/wallet.png">-BTC</p>
+                                                            </div>
+                                                            <div class="sum">
+                                                                <app-calc></app-calc>
+                                                            </div>
+  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="sell" class="tab-pane fade">
+                                                    <div class="row">
+                                                        <div class="col-md-6 buycol">
+  
+                                                            <h3>Buy</h3>
+  
+                                                            <div class="but txt">
+                                                                <p class="buytxt">Buy KEY</p>
+                                                                <p class="bitwallet"><img src="assets/wallet.png">-USDT</p>
+                                                            </div>
+                                                            <div class="sum">
+                                                                <app-calc></app-calc>
+                                                            </div>
+  
+                                                        </div>
+                                                        <div class="col-md-6 sellcol">
+  
+                                                            <h3>Sell</h3>
+                                                            <div class="but txt">
+                                                                <p class="buytxt">Buy KEY</p>
+                                                                <p class="bitwallet"><img src="assets/wallet.png">-BTC</p>
+                                                            </div>
+                                                            <div class="sum">
+                                                                <app-calc></app-calc>
+                                                            </div>
+  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="stop" class="tab-pane fade">
+                                                    <div class="row">
+                                                        <div class="col-md-6 buycol">
+  
+                                                            <h3>Buy</h3>
+  
+                                                            <div class="but txt">
+                                                                <p class="buytxt">Buy KEY</p>
+                                                                <p class="bitwallet"><img src="assets/wallet.png">-USDT</p>
+                                                            </div>
+                                                            <div class="sum">
+                                                                <app-calc></app-calc>
+                                                            </div>
+  
+                                                        </div>
+                                                        <div class="col-md-6 sellcol">
+  
+                                                            <h3>Sell</h3>
+                                                            <div class="but txt">
+                                                                <p class="buytxt">Buy KEY</p>
+                                                                <p class="bitwallet"><img src="assets/wallet.png">-BTC</p>
+                                                            </div>
+                                                            <div class="sum">
+                                                                <app-calc></app-calc>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--end buy tab content-->
+  
+                                            </div>
+  
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--order form end -->
+  
+                                <!-- active order start-->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                      <a class="accordion-toggle" data-toggle="collapse" href="#collapseSix">
+                        Active Orders
+                      </a>
+                    </h4>
+                                    </div>
+                                    <div id="collapseSix" class="panel-collapse collapse show">
+                                        <div class="panel-body">
+                                            <ul class="nav nav-tabs activeorders">
+  
+                                                <li class="active"><a class="show active" data-toggle="tab" href="#positions">Positions</a></li>
+                                                <!-- <li><a data-toggle="tab" href="#closedposition">Closed Positions</a></li> -->
+                                                <li><a data-toggle="tab" href="#activeorders">Active Orders</a></li>
+                                                <!-- <li><a data-toggle="tab" href="#stops">Stops</a></li>
+                                                <li><a data-toggle="tab" href="#fills">Fills</a></li> -->
+                                                <li><a data-toggle="tab" href="#orderhistory">Order History</a></li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div id="positions" class="tab-pane fade in active show">
+                                                    <h3>Positions</h3>
+                                                    <p><a href="#">Login to view</a></p>
+                                                </div>
+                                                <!-- <div id="closedpositions" class="tab-pane fade">
+                                                    <h3>Menu 1</h3>
+                                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                </div> -->
+                                                <div id="activeorders" class="tab-pane fade">
+                                                    <h3>Active Orders</h3>
+                                                    <p><a href="#">Login to view</a></p>
+                                                </div>
+                                                
+                                                <div id="orderhistory" class="tab-pane fade">
+                                                    <h3>Order History</h3>
+                                                    <p><a href="#">Login to view</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--active order end-->
+                            </div>
+                            <!--order form end-->
+  
+                        <div class="col-md-8">
+                        <!--according start-->
+                                            <div class="panel-group" id="accordion1">
+                        
+                                                <!--btc chart start-->
+                                                <div class="panel panel-default graph">
+                                                    <div class="panel-heading">
+                                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" href="#collapseFive">
+                                            CHART BTC/USDT
+                                            </a>
+                                        </h4>
+                                                    </div>
+                                                    <div id="collapseFive" class="panel-collapse collapse show">
+                                                        <div class="panel-body">
+                                                            <!--chartcode-->
+                                                            <div class="btcwdgt-chart" style="max-width:100% !important"></div>
+                                                            <!--chart code end-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                            </div>
+                        </div>
+                            <!--btc chart end-->
+                            <div class="col-md-12 dashacc">
+                                    
+                            <div class="row">
+                              
+                                <!--trades start-->
+                                <div class="col-md-6 sell">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" href="#collapseSeven">
+                                    TRADE HISTORY BTC/USDT
+                                </a>
+                              </h4>
+                                        </div>
+                                        <div id="collapseSeven" class="panel-collapse collapse show">
+                                            <div class="panel-body">
+                                                <!-- <img src="assets/new3.png"> -->
+                                                <!-- trade history table start-->
+      
+                                                <table class="table">
+                                                    <thead>
+                                                      <tr class="orderhead">
+                                                        <th>Time</th>
+                                                        <th>Price</th>
+                                                        <th>Amount(USDT)</th>
+                                                      
+                                                        
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr *ngFor="let stock of stocks" class="list" >
+                                                            <td [highlighter]="stock.code">{{ stock.code }}</td>
+                                                            <td [highlighter]="stock.bid">{{ stock.bid }}</td>
+                                                            <td [highlighter]="stock.ask">{{ stock.ask }}</td>
+                                                        </tr>
+                                                      
+                                                    </tbody>
+                                                  </table>
+                                                <!-- trade history end-->
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--trade history end-->
+                                        <!--order book start-->
+                    <div class="col-md-6 sell">
+                        
+                      <div class="panel-group" id="accordion">
+                          
+                          <!-- order book start-->
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                  <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" href="#collapseeight">
+                    ORDER BOOK
+                  </a>
+                </h4>
+                                  <div class="ordic">
+                                      <span class="ordicons"><i class="fa fa-minus"></i></span>
+                                      <span class="ordicons"><i class="fa fa-plus"></i></span>
+                                      <span class="ordicons"><i class="fa fa-bell"></i></span>
+                                      <span class="ordicons"><i class="fa fa-gear"></i></span>
+                                      <span class="ordicons"><i class="fa fa-search-minus"></i></span>
+                                      <span class="ordicons"><i class="fa fa-search-plus"></i></span>
+      
+                                  </div>
+                              </div>
+                              <div id="collapseeight" class="panel-collapse collapse show">
+                                  <div class="panel-body">
+                                    <!-- <img src="assets/order1.jpg">  -->
+                                    <div class="table-responsive">          
+                                        <table class="table">
+                                          <thead>
+                                            <tr class="orderhead">
+                                              <th>Price</th>
+                                              <th>Amount(USDT)</th>
+                                              <th>Total(USDT)</th>
+                                              
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                              <tr *ngFor="let stock of stocks" class="list" >
+                                                  <td [highlighter]="stock.code">{{ stock.code }}</td>
+                                                  <td [highlighter]="stock.bid">{{ stock.bid }}</td>
+                                                  <td [highlighter]="stock.ask">{{ stock.ask }}</td>
+                                              </tr>
+                                            
+                                          </tbody>
+                                        </table>
+                                        </div>
+                                      
+                                      <!--order book tabls start-->
+      
+                                        
+                                      <!-- order book end-->
+                                  </div>
+                              </div>
+                          </div>
+                          <!--order book end-->
+      
+                      </div>
+                  </div>
+                  <!--orderbook end-->
+                               
+                                <!--trades end-->
+                            </div>
+      
+                        </div>
+                        
+                        <!-- accordian end-->
+      
+                    </div>
+                    </div>
+            
+       
+       
+      </section>

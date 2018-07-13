@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+  }
+  .balances {
+    padding: 200px 0px;
+}
+.dep {
+  display: inline-block;
+  min-width: 70px;
+  height: 23px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #666;
+  border: 1px solid #e5e7ea;
+  padding: 0 2px;
+  margin-left: 6px;
+  background: #fff;
+}
+.balimg img {
+  width: 25px;
+}
+.table.table-striped.balancetable {
+  text-align: center;
+}
+.dep:hover {
+  background-color: #293e4a;
+  color: white;
+}
+.fa.fa-search {
+
+  float: right;
+  margin-right: 6px;
+  margin-top: -23px;
+  position: relative;
+  z-index: 2;
+  color: #848484e6;
+
+}
+.col-md-4.bal input {
+  width: 100%;
+}
+.col-md-4.bal {
+  margin-bottom: 50px;
+}
+
+.balancetable thead{
+  background-color:  #31BB9E;
+}
