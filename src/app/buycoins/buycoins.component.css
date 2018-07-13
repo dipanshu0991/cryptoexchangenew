@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+  }
+  .buycoins {
+    padding: 200px 0px;
+}
+.pricebtc{
+    font-weight: bold;
+    color:green;
+}
+.filterbox .form-group{
+    padding-right: 1%;
+}
+.filterbox{
+    padding: 4%;
+    border: 1px solid #31BB9E;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    margin-bottom:2%;
+}
+
+.searchbtn{
+    background-color: #31BB9E;
+}
+.tableheading{
+    padding: 1%;
+    margin-bottom: 1%;
+    border-bottom:  1px solid #31BB9E
+}
+.buybutton{
+    background-color: #31BB9E;
+    width:100px;
+}

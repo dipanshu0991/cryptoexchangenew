@@ -2,6 +2,8 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule, FormsModule }    from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import {MatTableModule} from '@angular/material/table';
+import { DataTablesModule } from 'angular-datatables';
 
 // used to create fake backend
 import { fakeBackendProvider } from './_helpers';
@@ -29,6 +31,7 @@ import { TestportComponent } from './testport/testport.component';
 import { BalancesComponent } from './balances/balances.component';
 import { OrderModule } from './order-pipe/ngx-order.module';
 import { DepositComponent } from './deposit/deposit.component';
+import { BuycoinsComponent } from './buycoins/buycoins.component';
 
 
 
@@ -42,7 +45,9 @@ import { DepositComponent } from './deposit/deposit.component';
         HttpClientModule,
         routing,
         OrderModule,
-        FormsModule
+        FormsModule,
+        MatTableModule,
+        DataTablesModule
   
         
         ],
@@ -63,6 +68,7 @@ import { DepositComponent } from './deposit/deposit.component';
         TestportComponent,
         BalancesComponent,
         DepositComponent,
+        BuycoinsComponent,
  
        
      
